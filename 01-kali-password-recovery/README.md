@@ -54,6 +54,12 @@ The boot configuration was modified so that the system would start directly into
 
 This provided access to the system without using the forgotten account password.
 
+#### Screenshot — Modified GRUB Boot Parameters
+
+The GRUB boot entry was modified to start Kali Linux with a writable root filesystem and launch `/bin/bash` directly.
+
+![Modified GRUB boot parameters showing rw init=/bin/bash](screenshots/01-grub-boot-parameters.jpeg)
+
 ---
 
 ### Step 3 — Start the Bash Shell
@@ -63,6 +69,12 @@ The modified boot configuration was started.
 Kali Linux loaded directly into a root Bash shell, bypassing the normal user login process.
 
 At this point, the normal graphical login process had been bypassed.
+
+#### Screenshot — Root Bash Shell Access
+
+The modified boot configuration successfully loaded Kali Linux into a root Bash shell, shown by the `root@(none):/#` prompt.
+
+![Kali Linux root Bash shell after modified boot](screenshots/02-root-bash-shell.jpeg)
 
 ---
 
@@ -84,11 +96,19 @@ The Linux `passwd` utility was used to assign a new password to the Kali user ac
 
 ```bash
 passwd <username>
+
 ```
 
 The new password was entered and confirmed when prompted.
 
 > The actual password is intentionally not included in this repository.
+
+
+#### Screenshot — Successful Password Reset
+
+The `passwd kali` command was used from the root Bash shell to assign a new password to the Kali user account. The system confirmed that the password was updated successfully.
+
+![Successful Kali Linux password reset using passwd](screenshots/03-password-reset-success.jpeg)
 
 ---
 
@@ -109,6 +129,12 @@ After Kali Linux restarted:
 5. Access to the existing Kali Linux environment was restored.
 
 **Result: Password recovery successful.**
+
+#### Screenshot — Kali Linux Access Restored
+
+After restarting the virtual machine, Kali Linux booted normally and access to the graphical desktop environment was successfully restored using the new password.
+
+![Kali Linux desktop after successful password recovery](screenshots/04-kali-desktop-restored.jpg)
 
 ---
 
