@@ -56,7 +56,7 @@ Investigated a failed network connectivity test from a Kali Linux virtual machin
 
 **Skills:** Linux Networking • TCP/IP • ICMP • Virtual Networking • Troubleshooting
 
-📁 Detailed documentation coming next.
+📁 **[View Project Documentation →](02-kali-network-troubleshooting/)**
 
 ---
 
