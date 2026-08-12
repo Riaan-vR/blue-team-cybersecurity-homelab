@@ -46,7 +46,7 @@ Recovered access to a Kali Linux virtual machine after losing the user password 
 
 **Skills:** Linux • GRUB • Bash • Authentication • System Recovery • Troubleshooting
 
-📁 Detailed documentation coming next.
+📁 **[View Project Documentation →](01-kali-password-recovery/)**
 
 ---
 
