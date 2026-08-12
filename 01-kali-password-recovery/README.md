@@ -10,7 +10,7 @@ This exercise gave me practical experience with Linux boot configuration, Bash, 
 
 ---
 
-## 🎯 Objective
+## 🎯 Objective 
 
 Recover access to an existing Kali Linux virtual machine without reinstalling the operating system or losing the existing lab configuration.
 
