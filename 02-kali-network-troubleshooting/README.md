@@ -55,6 +55,11 @@ At this point, the failed ping did not necessarily mean that the Windows 11 syst
 
 The failure could have occurred at several points in the communication process, so additional troubleshooting was required.
 
+### Screenshot — Initial Ping Failure
+
+The initial connectivity test from Kali Linux to the Windows 11 virtual machine failed. All four ICMP Echo Requests received no response, resulting in 100% packet loss.
+
+![Initial ping failure from Kali Linux](screenshots/02-initial-ping-failure.jpg)
 ---
 
 ## 🔎 Troubleshooting Process
