@@ -166,6 +166,12 @@ This time, Windows 11 responded to the ICMP Echo Requests.
 
 The successful ping confirmed that communication between Kali Linux and Windows 11 was working and that the firewall rule corrected the original problem.
 
+### Screenshot — Successful Connectivity Test
+
+After the Windows Firewall rule was applied, the connectivity test was repeated from Kali Linux. All four ICMP Echo Requests received replies from the Windows 11 virtual machine, resulting in 0% packet loss.
+
+![Successful ping from Kali Linux to Windows 11](screenshots/04-ping-success-after-firewall-change.jpg)
+
 ---
 
 ## 🔍 Root Cause Analysis
