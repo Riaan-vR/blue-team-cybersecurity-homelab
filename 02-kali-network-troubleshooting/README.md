@@ -78,6 +78,11 @@ The `ip addr` command displays information about the system's network interfaces
 
 This allowed me to verify the Kali Linux system's network configuration before investigating the destination system.
 
+### Screenshot — Kali Network Configuration
+
+The `ip addr` command was used to verify the Kali Linux network interface and IPv4 address before connectivity testing.
+
+![Kali Linux IP configuration](screenshots/01-kali-ip-configuration.jpg)
 ---
 
 ### Step 2 — Test Connectivity to Windows 11
