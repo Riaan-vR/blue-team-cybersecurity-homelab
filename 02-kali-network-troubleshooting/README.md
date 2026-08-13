@@ -144,6 +144,12 @@ The command contains several important components:
 
 The command required administrator privileges because it changed the security configuration of Windows Firewall.
 
+### Screenshot — Windows Firewall ICMPv4 Rule
+
+A Windows Firewall rule named `LAB-Allow-ICMPv4` was created to allow inbound ICMPv4 Echo Requests on the Public profile. Windows confirmed that the rule was added successfully.
+
+![Windows Firewall ICMPv4 rule](screenshots/03-windows-firewall-icmp-rule.jpg)
+
 ---
 
 ## 🔄 Verification
